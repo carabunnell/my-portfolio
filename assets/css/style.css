@@ -1,10 +1,4 @@
-body {
- 
-    
-} 
 
-.container {
-}
 .header {
 
     border-color: darkgrey;
@@ -23,7 +17,6 @@ body {
     float: left;
     margin-left: 100px;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-
 }
 
 
@@ -69,22 +62,21 @@ li a:hover {
     color: pink;
 }
 
-.active {
+li a.active:hover {
     color: lightgrey;
+}
 
+li a.active {
+     color: lightgrey;
 }
-.active:hover {
-    color: lightgrey;
-}
-section {
     
-}
 
 #mainbackground {
     width: 100%;
     overflow: auto;
     clear: both;
     background: #dddddd;
+    
 }
 
 #pagetitle {
@@ -94,10 +86,6 @@ section {
     margin-right: 30px;
     background: #ffffff;
     border-bottom: 3px solid grey;
-}
-
-section {
-    
 }
 
 aside {
@@ -149,6 +137,7 @@ footer {
 .formcontact{
     margin: 30px;
 }
+
 input[type=text], select, textarea {
     width: 100%; /* Full width */
     padding: 12px; /* Some padding */ 
@@ -157,7 +146,7 @@ input[type=text], select, textarea {
     margin-top: 6px; /* Add a top margin */
     margin-bottom: 16px; /* Bottom margin */
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-  }
+}
 
   /* Style the submit button with a specific background color etc */
 input[type=submit] {
@@ -165,13 +154,14 @@ input[type=submit] {
     color: white;
     padding: 12px 20px;
     border: none;
-    
     cursor: pointer;
 }
+
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
     background-color: teal;
 }
+
 /* PORFOLIO PAGE STYLING */
 .portfolioimage {
     margin-left: 30px;
@@ -179,6 +169,7 @@ input[type=submit]:hover {
     float: left;
     margin-bottom: 30px;
 }
+
 .imagetext {
     position: absolute;
     bottom: 15px;
